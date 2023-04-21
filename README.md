@@ -7,28 +7,44 @@
 - Pool connection using JDBC
 - Connection using JPA
 
+## OUR EXAMPLE
+
+Our project combines the jdbc and jpa methods to execute the different crud operations so we can have a quick look of how  both technologies work
+
 
 ## PREREQUIREMENTS
-Java ☕
-IDE (we suggeste IntelliJ)
-MariaDB 🐋
-Maven 🐦
+- Java ☕
+- IDE (we suggest IntelliJ)
+- MariaDB 🐋
+- Maven 🐦
 
 
-  ## MAIN DIFFERENCE BETWEEN THE CONNECTIONS
-- JDBC is simpler to understand
-- Whith JPA development can be completed more quickly
--
--
+## MAIN DIFFERENCE BETWEEN JDBC AND JPA
+1. JDBC allows us to write SQL commands to read data from and update data to a relational database. JPA, unlike JDBC, allows developers to construct database-driven Java programs utilizing object-oriented semantics.
+
+2. With JDBC, we need to write out the full SQL query, while with JPA, we simply use annotations to create one-to-one, one-to-many, many-to-one, and many-to-many associations
+
+3. JDBC is database-dependent, which means that different scripts must be written for different databases. On the other side, JPA is database-agnostic, meaning that the same code can be used in a variety of databases with few (or no) modifications.
+
 
 ## CONCLUSION 
 
-To sum up, emphasize that it is  a small example of an airline database, which we used to practice the different sections of the unit and understand how they work. We also used previows knowledge since we had to use many-to-many and one-to-many relationships. Also we used postgres to get used to it, also it was very helpfull due to it's large documentation and compatibility.
+To sum up, The main benefit of JDBC is that it is easy to use, as well as having a very friendly syntax. However JPA is at a higher level, especially in the development of complex applications. JDBC is perfect for small programs and getting started, but JPA is superior and much more useful.
 
-### By
 
-Mohammed Salhi Biade
+## By 👨‍💻
 
 Fabian Ossai Ossai
 
-07_09_ASSI_Intermediate_SQL_2
+Mohammed Salhi Biade
+
+
+08_03_ASSI_java_mariaDB_connection
+
+### References 📃
+
+- MariaDb wth Java turotial : https://youtube.com/playlist?list=PLlm3ebwe5px-LA8qIqYb5aM4-zl5c1G95
+
+- JDBC and JPA definition : https://www.baeldung.com/jpa-vs-jdbc#:~:text=JDBC%20is%20database%2Ddependent%2C%20which,few%20(or%20no)%20modifications.
+
+
