@@ -13,6 +13,7 @@ public class JpaService {
     private EntityManagerFactory entityManagerFactory;
 
     public JpaService() {
+
         entityManagerFactory = Persistence.createEntityManagerFactory("empresajdbc");
     }
     public static synchronized JpaService getInstance() {
