@@ -9,12 +9,12 @@
 
 ## OUR EXAMPLE
 
-Our project combines the jdbc and jpa methods to execute the different crud operations so we can have a quick look of how  both technologies work
+Our project combines the jdbc and jpa methods to execute the different CRUD operations so we can have a quick look of how  both technologies work.
 
 
 ## PREREQUIREMENTS
 - Java ☕
-- IDE (we suggest IntelliJ)
+- IDE (we suggest IntelliJ) 💻
 - MariaDB 🐋
 - Maven 🐦
 
@@ -22,7 +22,7 @@ Our project combines the jdbc and jpa methods to execute the different crud oper
 ## MAIN DIFFERENCE BETWEEN JDBC AND JPA
 1. JDBC allows us to write SQL commands to read data from and update data to a relational database. JPA, unlike JDBC, allows developers to construct database-driven Java programs utilizing object-oriented semantics.
 
-2. With JDBC, we need to write out the full SQL query, while with JPA, we simply use annotations to create one-to-one, one-to-many, many-to-one, and many-to-many associations
+2. With JDBC, we need to write out the full SQL query, while with JPA, we simply use annotations to create one-to-one, one-to-many, many-to-one, and many-to-many associations.
 
 3. JDBC is database-dependent, which means that different scripts must be written for different databases. On the other side, JPA is database-agnostic, meaning that the same code can be used in a variety of databases with few (or no) modifications.
 
